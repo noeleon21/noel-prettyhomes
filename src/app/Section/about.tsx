@@ -10,11 +10,11 @@ import {
 
 const ContentSection = () => (
   <div>
-    <h2 className="text-4xl italic font-bold mb-8 text-center md:text-left">
+    <h2 className="text-6xl italic font-bold mb-8 text-center md:text-left">
       About Us
     </h2>
 
-    <p className="text-2xl text-black">
+    <p className="text-2xl text-black text-left">
       Pretty Homes is a Sydney-based custom builder whose foundation is laid by
       a bunch of professionals in the residential and commercial building
       industry. At Pretty Homes, we value honesty, integrity, and continuous
@@ -34,7 +34,9 @@ export default function About() {
   ];
 
   return (
-    <div className="max-w-full max-h-full">
+    <div className="max-w-full max-h-full ">
+        {/* Black transparent overlay */}
+        {/* <div className="absolute inset-0 bg-black bg-opacity-50 pointer-events-none"></div> */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-16 px-16">
         {/* About Section */} 
         <div>

@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-blue-600 text-white shadow-lg fixed w-full z-50">
+    <nav className="bg-orange-600 text-white shadow-lg fixed w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           {/* Logo */}
@@ -27,7 +27,8 @@ const Navbar: React.FC = () => {
               onClick={() => handleScroll("home")}
               className="text-lg font-bold cursor-pointer"
             >
-              MyLogo
+              <img src="pretty-homes-logo.jpg" className="w-48 h-auto" alt="Pretty Homes Logo" />
+
             </a>
           </div>
 
@@ -103,7 +104,7 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-blue-500">
+        <div className="md:hidden bg-orange-500">
           <button
             onClick={() => handleScroll("home")}
             className="block w-full px-4 py-2 text-left hover:bg-blue-400"

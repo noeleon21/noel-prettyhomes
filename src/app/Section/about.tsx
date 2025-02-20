@@ -5,8 +5,8 @@ import Vertical_timeline from "@/components/ui/vertical-timeline"
 const ContentSection = () => (
   <div>
   <div className="w-full  mt-8 text-center">
-    <h2 className="underline underline-offset-8 text-6xl italic font-bold ">
-      About Us
+    <h2 className="relative inline-block text-5xl font-brand-darkblue font-bold after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-[2px] after:w-1/3 after:bg-current ">
+      ABOUT US
     </h2>
     {/* <p className="text-2xl text-black">
       Pretty Homes is a Sydney-based custom builder whose foundation is laid by

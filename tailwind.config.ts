@@ -10,6 +10,10 @@ export default {
   theme: {
   	extend: {
   		colors: {
+			brand: {
+				DEFAULT: '#ae9e7e', // A deep blue color
+				darkblue: '#1c2430',   // A lighter blue shade
+			},
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

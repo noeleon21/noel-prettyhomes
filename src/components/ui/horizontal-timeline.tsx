@@ -13,7 +13,7 @@ export default function About() {
   const [selectedDot, setSelectedDot] = useState<number | null>(0); // Default to the first item
 
   return (
-    <div className="w-full flex flex-col items-center text-center py-10">
+    <div className="relative w-full flex flex-col items-center text-center py-10">
       {/* Description Section */}
       {selectedDot !== null && (
         <div className="max-w-2xl p-6 text-center">
@@ -34,12 +34,12 @@ export default function About() {
       <button
         className={`w-6 h-6 rounded-full transition duration-200 ${
           selectedDot === index ? "bg-gray-300" : "bg-brand-darkblue"
-        }`}
+        } z-10`}
         onClick={() => setSelectedDot(index)}
       />
      {/* Title Below Dot */}
      
-     <span className="absolute mt-8">{info.title}</span>
+     <span className="absolute mt-8 z-20 ">{info.title}</span>
     
     </div>
        ))}

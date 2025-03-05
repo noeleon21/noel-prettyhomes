@@ -38,7 +38,7 @@ export default function Project() {
       <h1 className="text-center text-5xl text-black font-bold mb-8 relative inline-block  font-brand-darkblue font-bold after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-[2px] after:w-1/3 after:bg-current "> PROJECTS </h1>
       
       <Tabs defaultValue="Family Home" className="w-full">
-        <TabsList className="grid w-full grid-cols-2 bg-brand-darkblue text-white">
+        <TabsList className="grid w-3/4  mx-auto grid-cols-2 bg-brand-darkblue text-white">
           <TabsTrigger value="Family Home">Family Home</TabsTrigger>
           <TabsTrigger value="Single Story">Single Storey</TabsTrigger>
         </TabsList>

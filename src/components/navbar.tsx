@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-4 items-center">
+          <div className="hidden md:flex space-x-4 items-center text-xl">
             <button
               onClick={() => handleScroll("home")}
               className="hover:text-blue-200 text-brand-darkblue font-bold"

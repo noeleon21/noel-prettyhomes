@@ -13,7 +13,7 @@ export default function About() {
   const [selectedDot, setSelectedDot] = useState<number | null>(null);
 
   return (
-    <div className="w-full flex flex-col items-center justify-center text-center py-10 border-double border-[15px] border-brand ">
+    <div className="w-full flex flex-col items-center justify-center text-center py-10 border-double border-[15px] border-brand-darkblue ">
       {/* Dots and Description */}
       <div className="w-full flex flex-col items-center space-y-8 relative z-10">
         {dots.map((info, index) => (

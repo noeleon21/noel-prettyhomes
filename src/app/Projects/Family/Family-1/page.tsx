@@ -34,7 +34,7 @@ export default function FeaturedImageGallery() {
   return (
     <>
    
-    <div className="md:border-brand md:border-double md:border-[25px] ">
+    <div className="md:border-brand-darkblue md:border-double md:border-[25px] ">
       <ImageGallery images={data} />
       <div className="px-8 space-y-8">
         <h1 className="text-3xl font-bold">Address</h1>

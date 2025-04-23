@@ -17,9 +17,9 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-brand text-white shadow-lg fixed w-full z-50">
+    <nav className="bg-brand-darkblue text-white shadow-lg fixed w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
+        <div className="flex justify-between h-24">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <a
@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
               onClick={() => handleScroll("home")}
               className="text-lg font-bold cursor-pointer"
             >
-              <img src="pretty-homes-logo.jpg" className="w-48 h-auto" alt="Pretty Homes Logo" />
+              <img src="Pretty_Homes_Logo.jpg" className="w-20 " alt="Pretty Homes Logo" />
 
             </a>
           </div>
@@ -36,25 +36,25 @@ const Navbar: React.FC = () => {
           <div className="hidden md:flex space-x-4 items-center text-xl">
             <button
               onClick={() => handleScroll("home")}
-              className="hover:text-blue-200 text-brand-darkblue font-bold"
+              className="hover:text-blue-200 text-white font-bold"
             >
               Home
             </button>
             <button
               onClick={() => handleScroll("about")}
-              className="hover:text-blue-200 text-brand-darkblue font-bold"
+              className="hover:text-blue-200 text-white font-bold"
             >
               About
             </button>
             <button
               onClick={() => handleScroll("project")}
-              className="hover:text-blue-200 text-brand-darkblue font-bold"
+              className="hover:text-blue-200 text-white font-bold"
             >
               Projects
             </button>
             <button
               onClick={() => handleScroll("contact")}
-              className="hover:text-blue-200 text-brand-darkblue font-bold"
+              className="hover:text-blue-200 text-white font-bold"
             >
               Contact
             </button>
@@ -104,28 +104,28 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-brand">
+        <div className="md:hidden bg-brand-darkblue">
           <button
             onClick={() => handleScroll("home")}
-            className="block w-full px-4 py-2 text-left text-brand-darkblue hover:bg-blue-400 font-bold"
+            className="block w-full px-4 py-2 text-left text-white hover:bg-blue-400 font-bold"
           >
             Home
           </button>
           <button
             onClick={() => handleScroll("about")}
-            className="block w-full px-4 py-2 text-left text-brand-darkblue hover:bg-blue-400 font-bold"
+            className="block w-full px-4 py-2 text-left text-white hover:bg-blue-400 font-bold"
           >
             About
           </button>
           <button
             onClick={() => handleScroll("project")}
-            className="block w-full px-4 py-2 text-left text-brand-darkblue hover:bg-blue-400 font-bold"
+            className="block w-full px-4 py-2 text-left text-white hover:bg-blue-400 font-bold"
           >
             Project
           </button>
           <button
             onClick={() => handleScroll("contact")}
-            className="block w-full px-4 py-2 text-left text-brand-darkblue hover:bg-blue-400 font-bold"
+            className="block w-full px-4 py-2 text-left text-white hover:bg-blue-400 font-bold"
           >
             Contact
           </button>

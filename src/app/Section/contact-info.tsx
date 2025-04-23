@@ -45,14 +45,14 @@ export default function ContactInfo() {
             <div className="flex flex-wrap justify-center gap-8 pb-8">
                 {/* Email */}
                 <Animations animationDirection="left-to-right">
-                    <div className="flex flex-col items-center justify-center text-center border-double border-brand border-8 w-64 h-64">
+                    <div className="flex flex-col items-center justify-center text-center border-double border-brand-darkblue border-8 w-64 h-64">
                         <Mail className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24" />
                       <a href="mailto:info@prettyhomes.com.au">  <p className="mt-4 text-lg sm:text-xl">info@prettyhomes.com.au</p> </a>
                     </div>
                 </Animations>
                 {/* Phone */}
                 <Animations animationDirection="right-to-left">
-                    <div className="flex flex-col items-center justify-center text-center border-double border-brand border-8 w-64 h-64">
+                    <div className="flex flex-col items-center justify-center text-center border-double border-brand-darkblue border-8 w-64 h-64">
                         <PhoneCall className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24" />
                       <a href="tel:+61421875640"> <p className="mt-4 text-lg sm:text-xl">+61 421 875 640</p> </a> 
                     </div>

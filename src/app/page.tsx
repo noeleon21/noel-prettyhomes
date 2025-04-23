@@ -73,7 +73,7 @@ export default function Home() {
 
       {/* Section 2 */}
       <Animations animationDirection="top-to-bottom">
-        <section id="about" className="relative min-h-[600px]  flex items-center md:border-brand md:border-r-[50px] md:border-l-[50px] ">
+        <section id="about" className="relative min-h-[600px]  flex items-center md:border-brand-darkblue md:border-r-[50px] md:border-l-[50px] ">
           <div className="absolute inset-0 bg-white"></div>
           <div className="relative z-10 w-full text-center">
             <About />
@@ -83,7 +83,7 @@ export default function Home() {
 
       {/* Section 3 */}
       <Animations animationDirection="left-to-right">
-        <section id="project" className="relative min-h-[750px] flex items-center md:border-brand md:border-double md:border-[25px] bg-white ">
+        <section id="project" className="relative min-h-[750px] flex items-center md:border-brand-darkblue md:border-double md:border-[25px] bg-white ">
           <div className="relative z-10 w-full text-center">
             <Project />
           </div>

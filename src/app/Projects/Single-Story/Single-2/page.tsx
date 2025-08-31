@@ -7,16 +7,16 @@ import Link from "next/link";
 const data = [
   {
      imgelink:
-     "https://prettyhomes.com.au/wp-content/uploads/2016/12/46AtFront-847x470.jpg",
+     "/Single-2-1.jpg",
    },
    {
      imgelink:
-       "https://prettyhomes.com.au/wp-content/uploads/2016/12/46At.jpg",
+       "/Single-2-2.jpg",
    },
 
    {
      imgelink:
-       "https://prettyhomes.com.au/wp-content/uploads/2016/12/46Atl2.jpg",
+       "/Single-2-3.jpg",
    },
  
  ];
@@ -28,7 +28,7 @@ export default function FeaturedImageGallery() {
   <div className="md:border-brand-darkblue md:border-double md:border-[25px] ">
   <ImageGallery images={data} />
   <div className="px-8 space-y-8">
-      <h1 className="text-3xl font-bold">Address</h1>
+      
 
       <HouseIcons bathCount={3} bedCount={4} carCount={1}/>
       
@@ -48,14 +48,19 @@ export default function FeaturedImageGallery() {
        <li>– Internal laundry </li> 
       </ul>
       <div className="flex justify-between mt-6 pb-6">
-    <Link href="/" className="inline-block">
-      <button className="px-6 py-3 bg-brand text-white font-bold rounded-lg hover:bg-gray-700 transition">
-        Back to Home
+          <Link href="/Projects/Single-Story/Single-1" className="inline-block">
+      <button className="px-6 py-3 bg-brand-darkblue text-white font-bold rounded-lg hover:bg-blue-700 transition">
+        Back
       </button>
     </Link>
+      <a href="/" className="inline-block">
+  <button className="px-6 py-3 bg-brand-darkblue text-white font-bold rounded-lg hover:bg-gray-700 transition">
+    Back to Home
+  </button>
+</a>
 
     <Link href="/Projects/Single-Story/Single-3" className="inline-block">
-      <button className="px-6 py-3 bg-brand text-white font-bold rounded-lg hover:bg-blue-700 transition">
+      <button className="px-6 py-3 bg-brand-darkblue text-white font-bold rounded-lg hover:bg-blue-700 transition">
         Next
       </button>
     </Link>

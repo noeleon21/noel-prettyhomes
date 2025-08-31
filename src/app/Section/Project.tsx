@@ -23,7 +23,8 @@ export default function Project() {
   const Family_Home_Images = [
     {src: "/Family-1.jpg", link: "/Projects/Family/Family-1"},
     {src: "/Family-2.jpg", link: "/Projects/Family/Family-2"},
-    {src: "/Family-3.jpg", link: "/Projects/Family/Family-3"},
+    // {src: "/Family-3.jpg", link: "/Projects/Family/Family-3"},
+    {src: "/Family-4.jpg", link: "/Projects/Family/Family-4"},
   ];
 
   const single_story_Images = [
@@ -49,7 +50,7 @@ export default function Project() {
                 <img
                   src={image.src}
                   alt={`Family home ${index + 1}`}
-                  className="w-full h-auto rounded-md shadow-md"
+                  className="w-full h-3/5 rounded-md shadow-md"
                 />
                 <a href={image.link}>
                   <Button className="mt-2">View More</Button>
@@ -65,7 +66,7 @@ export default function Project() {
                 <img
                   src={image.src}
                   alt={`Single Story ${index + 1}`}
-                  className="w-full h-auto rounded-md shadow-md"
+                  className="w-full h-full rounded-md shadow-md"
                 />
                 <a href={image.link}>
                   <Button className="mt-2">View More</Button>

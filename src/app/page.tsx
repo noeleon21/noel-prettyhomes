@@ -60,7 +60,7 @@ import Animations from "@/components/ui/animations";
 // }
 export default function Home() {
   return (
-    <main className="h-full bg-[url('/pexels-binyaminmellish-1396122.jpg')] bg-cover bg-center bg-fixed">
+    <main className="h-full bg-[url('/main_picture.jpg')] bg-cover bg-center bg-fixed">
       <Navbar />
       
       {/* Section 1 */}

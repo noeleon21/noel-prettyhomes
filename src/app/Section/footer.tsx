@@ -7,7 +7,7 @@ export default function footer() {
         
           <div className="text-center w-fit mx-auto  ">
             <p className="text-sm md:text-base lg:text-lg text-white">
-              © Copyright 2025 Pretty Homes Construction Company
+              © Copyright 2025 Pretty Homes Pty Ltd, ACN: 643 025 174
             </p>
             <p className="text-sm md:text-base lg:text-lg text-white">
               Build Your Own Way

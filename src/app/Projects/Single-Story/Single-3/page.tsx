@@ -6,28 +6,36 @@ import Link from "next/link";
 const data = [
   {
      imgelink:
-     "https://prettyhomes.com.au/wp-content/uploads/2016/12/Straight-46-e1600937031618-847x470.jpg",
+     "/Single-3-1.jpg",
    },
    {
      imgelink:
-       "https://prettyhomes.com.au/wp-content/uploads/2016/12/1200-7.jpg",
+       "/Single-3-2.jpg",
    },
 
    {
      imgelink:
-       "https://prettyhomes.com.au/wp-content/uploads/2016/12/1200-5.jpg",
+       "/Single-3-3.jpg",
    },
    {
      imgelink:
-       "https://prettyhomes.com.au/wp-content/uploads/2016/12/46St6.jpg",
+       "/Single-3-4.jpg",
    },
    {
      imgelink:
-       "https://prettyhomes.com.au/wp-content/uploads/2016/12/46St5.jpg",
+       "/Single-3-5.jpg",
    },
    {
      imgelink:
-     "https://prettyhomes.com.au/wp-content/uploads/2016/12/46St4.jpg"
+       "/Single-3-6.jpg"
+   },
+   {
+     imgelink:
+       "/Single-3-7.jpg"
+   },
+   {
+     imgelink:
+       "/Single-3-8.jpg"
    },
  
  ];
@@ -39,7 +47,7 @@ export default function FeaturedImageGallery() {
       <div className="md:border-brand-darkblue md:border-double md:border-[25px] ">
   <ImageGallery images={data} />
   <div className="px-8 space-y-8">
-  <h1 className="text-3xl font-bold">Address</h1>
+  
     <HouseIcons bathCount={2} bedCount={4} carCount={1}/>
     <h2 className="text-2xl font-bold text-left ">Project Description</h2>
     <p className=" text-left">With 4 bedrooms, 2 bathrooms, double car garage, study, 3 living areas and alfresco outdoor entertaining:</p>
@@ -60,18 +68,29 @@ export default function FeaturedImageGallery() {
     <li>  – The comfort of ducted reverse-cycle air-conditioning throughout.</li>
     <li>  – Powder room, providing the extra toilet for the growing family.</li>
     </ul>
-    <div className="pb-6">
-    <Link href="/" className="inline-block">
-      <button className="px-6 py-3 bg-brand text-white font-bold rounded-lg hover:bg-gray-700 transition">
-        Back to Home
+    <div className="flex justify-between mt-6 pb-6">
+           <Link href="/Projects/Single-Story/Single-2" className="inline-block">
+      <button className="px-6 py-3 bg-brand-darkblue text-white font-bold rounded-lg hover:bg-blue-700 transition">
+        Back
       </button>
-    </Link>
+      </Link>
+     <a href="/" className="inline-block">
+  <button className="px-6 py-3 bg-brand-darkblue text-white font-bold rounded-lg hover:bg-gray-700 transition">
+    Back to Home
+  </button>
+</a>
 {/* 
     <Link href="/Projects/Single-Story/Single-2" className="inline-block">
       <button className="px-6 py-3 bg-brand text-white font-bold rounded-lg hover:bg-blue-700 transition">
         Next
       </button>
     </Link> */}
+    
+    <Link href="/Projects/Single-Story/Single-1" className="inline-block">
+      <button className="px-6 py-3 bg-brand-darkblue text-white font-bold rounded-lg hover:bg-blue-700 transition">
+        Next
+      </button>
+    </Link>
     </div>
   </div>
   </div>

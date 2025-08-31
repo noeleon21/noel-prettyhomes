@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
               onClick={() => handleScroll("home")}
               className="text-lg font-bold cursor-pointer"
             >
-              <img src="Pretty_Homes_Logo.jpg" className="w-20 " alt="Pretty Homes Logo" />
+              <img src="Pretty_Homes_Logo.jpg" className="w-20 rounded-full " alt="Pretty Homes Logo" />
 
             </a>
           </div>

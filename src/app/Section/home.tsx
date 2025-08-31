@@ -1,9 +1,9 @@
 
 export default function Home() {
   return (
-    <div className="h-screen relative bg-[url('/pexels-binyaminmellish-1396122.jpg')] bg-cover bg-center bg-no-repeat bg-fixed">
+    <div className="h-screen relative bg-[url('/main_picture.jpg')] bg-cover bg-center bg-no-repeat bg-fixed">
       {/* Black transparent overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-50 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-30 pointer-events-none"></div>
       
       {/* Wrapper div to center content */}
       <div className="relative flex items-center justify-center h-full z-10">
@@ -12,7 +12,7 @@ export default function Home() {
           Welcome to Pretty Homes
         </h1>
         <h2 className="text-white text-2xl italic">
-          Build you own way
+          Build your own way
         </h2>
         </div>
       </div>
